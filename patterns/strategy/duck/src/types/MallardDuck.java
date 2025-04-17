@@ -1,7 +1,7 @@
-package src.types;
+package types;
 
-import src.behaviors.fly.FlyWithWings;
-import src.behaviors.quack.Quack;
+import behaviors.fly.FlyWithWings;
+import behaviors.quack.Quack;
 
 public class MallardDuck extends Duck {
   public MallardDuck() {

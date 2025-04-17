@@ -1,13 +1,14 @@
-package src.types;
+package types;
 
-import src.interfaces.FlyBehavior;
-import src.interfaces.QuackBehavior;
+import interfaces.FlyBehavior;
+import interfaces.QuackBehavior;
 
 public abstract class Duck {
   FlyBehavior flyBehavior;
   QuackBehavior quackBehavior;
 
-  public Duck() {}
+  public Duck() {
+  }
 
   public abstract void display();
 

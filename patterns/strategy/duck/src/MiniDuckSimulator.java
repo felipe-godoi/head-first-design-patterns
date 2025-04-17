@@ -1,9 +1,7 @@
-package src;
-
-import src.behaviors.fly.FlyRocketPowered;
-import src.types.Duck;
-import src.types.MallardDuck;
-import src.types.ModelDuck;
+import behaviors.fly.FlyRocketPowered;
+import types.Duck;
+import types.MallardDuck;
+import types.ModelDuck;
 
 public class MiniDuckSimulator {
   public static void main(String[] args) {

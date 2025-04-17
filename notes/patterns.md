@@ -7,3 +7,7 @@ This pattern is important because it deals with code reusability and behavior sh
 
 # Observer Pattern
 ### The Observer Pattern defines a one-to-many dependency between objects so that when one object changes states, all of its dependents are notified and updated automatically
+In this pattern, one object can act as a subject that notifies other objects when it's state changes.
+Only subscribed objects are notified, and they can opt out whenever needed.
+The subscribed objects have to implement an interface with the methods that are going to be used by the Subject for notification.
+All the subject has to know about the observers is the Observer interface implementation, and the same is valid for the observers, they only need to know that the subject implements the Subject interface.

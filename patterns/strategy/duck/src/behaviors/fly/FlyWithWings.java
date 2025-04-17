@@ -1,6 +1,6 @@
-package src.behaviors.fly;
+package behaviors.fly;
 
-import src.interfaces.FlyBehavior;
+import interfaces.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
   @Override
