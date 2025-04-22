@@ -1,4 +1,4 @@
-# Strategy Pattern (Ducks)
+# Strategy Pattern
 ### The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 This patterns aims to reduce problems created by inheritance. It does that favoring composition over inheritance.
 With the help of polymorphism we can define a behavior as a property of one superclass. This way we can have an abstract superclass for one behavior and extend this superclass with specific implementations for this behavior.
@@ -13,6 +13,7 @@ The subscribed objects have to implement an interface with the methods that are 
 All the subject has to know about the observers is the Observer interface implementation, and the same is valid for the observers, they only need to know that the subject implements the Subject interface.
 
 # Decorator Pattern
+### The Decorator Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 This pattern is used based on the Open-Closed principle, because using it you can wrap a class and extend it with other behaviors or responsibilities. This way you can add more functionality to an existing code without changing it.
 Some features of decorators are:
 - They have the same supertype as the objects decorated
