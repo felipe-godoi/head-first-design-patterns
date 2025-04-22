@@ -11,3 +11,11 @@ In this pattern, one object can act as a subject that notifies other objects whe
 Only subscribed objects are notified, and they can opt out whenever needed.
 The subscribed objects have to implement an interface with the methods that are going to be used by the Subject for notification.
 All the subject has to know about the observers is the Observer interface implementation, and the same is valid for the observers, they only need to know that the subject implements the Subject interface.
+
+# Decorator Pattern
+This pattern is used based on the Open-Closed principle, because using it you can wrap a class and extend it with other behaviors or responsibilities. This way you can add more functionality to an existing code without changing it.
+Some features of decorators are:
+- They have the same supertype as the objects decorated
+- You can use multiple decorators on the same object
+- The decorator can be used at any time to decorate objects dynamically at runtime.
+
