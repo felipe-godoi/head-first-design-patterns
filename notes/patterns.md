@@ -18,4 +18,3 @@ Some features of decorators are:
 - They have the same supertype as the objects decorated
 - You can use multiple decorators on the same object
 - The decorator can be used at any time to decorate objects dynamically at runtime.
-
