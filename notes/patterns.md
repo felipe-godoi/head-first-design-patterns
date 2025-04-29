@@ -19,3 +19,10 @@ Some features of decorators are:
 - They have the same supertype as the objects decorated
 - You can use multiple decorators on the same object
 - The decorator can be used at any time to decorate objects dynamically at runtime.
+
+# Factory
+### The Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+This pattern is useful when you have different sets of objects that implement the same interface but are created using different approaches. It helps reduce coupling by encapsulating what varies and also reduces code duplication.
+By using it, you can write a creator class that defines a creation method (factory method) of a supertype and perform operations on it.
+After that, you can extend this class by creating subclasses that implement the factory method, each instantiating a specific concrete implementation.
+In this way, you allow the subclasses to 'decide' which class to instantiate, although in practice, you determine what will be instantiated by choosing the appropriate subclass.

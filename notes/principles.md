@@ -20,3 +20,6 @@ This principle aims to focus on making the most changing parts of the code isola
 To achieve that you can use patterns that doesn't modify the base code when you need to add new functionalities, instead they just extend it.
 One example of this is the Decorator Pattern, that builds new functions on existing code.
 The goal of this principle is to prevent changes on existing code, once they can introduce new bugs or compromise the current behavior.
+
+# Dependency Inversion Principle - Depend upon abstractions. Do not depend upon concrete classes
+High-level objects should not depend on low-level objects. This principle states that both objects should depend on abstractions.
